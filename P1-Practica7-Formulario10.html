@@ -1,0 +1,61 @@
+<!--Mendez Escobedo Mariana 5ºI No.0595-->
+<!DOCTYPE html>
+<!--sirve para indicarle al navegador web qué versión de HTML se está utilizando-->
+<html lang="en">
+<!--para indicarle al navegador web dónde empieza y dónde termina-->
+<head>
+<!--sección que guarda información general-->
+<meta charset="UTF-8">
+<!--indica que caracteres usar para mostraer correctamente el texto-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--le dice al navegador móvil cómo debe ajustar el tamaño y la escala de una página web-->
+<title>Formularios en HTML</title>
+<!-- define el título oficial de una página web-->
+
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<!--cierre del encabezado-->
+<body>	
+<!-- etiqueta que define el cuerpo del documento-->
+
+<h1>Formularios</h1> <!--Encabezado principal-->
+<p>Un formulario permite al visitante cargar datos y que sean enviados al servidor.</p>
+<p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
+esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
+ASP, ASP.NET, Node, etc.)
+</p><!--párrafo de texto-->
+<h2>Formulario con agrupamientos</h2><!--Subtitulo o titulo con menos importancia-->
+<form action="" method="post">
+<!--crear un contenedor de formulario en HTML que envía los datos ingresados por el usuario-->
+<fieldset>
+<!--crea un contenedor que agrupa lógicamente campos relacionados dentro de un formulario, dibujando un recuadro o borde visual alrededor de ellos.-->
+<legend>Datos personales</legend>
+<!-- crea el título o etiqueta visible para el recuadro del <fieldset>-->
+Nombre y apellido:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="text" name="nombre_apellido"><br><!--Campo de texto que define el nombre de la variable-->
+Documento valido:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="file" name="documento"><br><!--Campo de texto que define el nombre de la variable-->
+Fecha de nacimiento:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="date" name="fecha_nacimiento"><!--Campo de texto que define el nombre de la variable-->
+</fieldset><!--cierra el contenedor de agrupación-->
+<fieldset><!--crea un contenedor que agrupa lógicamente campos relacionados dentro de un formulario, dibujando un recuadro o borde visual alrededor de ellos.-->
+<legend>Datos de estudio:</legend><!-- crea el título o etiqueta visible para el recuadro del <fieldset>-->
+Nombre de la escuela:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="text" name="escuela"><br><!--Campo de texto que define el nombre de la variable-->
+Certificado valido:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="file" name="certificado"><br><!--Campo de texto que define el nombre de la variable-->
+Fecha de egreso:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="date" name="fecha_egreso"><!--Campo de texto que define el nombre de la variable-->
+</fieldset><!--cierra el contenedor de agrupación-->
+<br><!--Salto de linea-->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+<!-- crea un botón de envío moderno que incluye texto y un icono visual de un avión de papel.-->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+<!-- crea un botón de envío moderno que incluye texto y un icono visual de un bote de basura.-->
+</form><!--cierra el contenedor del formulario-->
+</body><!--Cierre del cuerpo-->
+</html><!--marcador de cierre que indica el final de un documento HTML.-->
