@@ -1,0 +1,54 @@
+<!--Mendez Escobedo Mariana 5ºI No.0595-->
+<!DOCTYPE html>
+<!--sirve para indicarle al navegador web qué versión de HTML se está utilizando-->
+<html lang="en">
+<!--para indicarle al navegador web dónde empieza y dónde termina-->
+<head>
+<!--sección que guarda información general-->
+<meta charset="UTF-8">
+<!--indica que caracteres usar para mostraer correctamente el texto-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--le dice al navegador móvil cómo debe ajustar el tamaño y la escala de una página web-->
+<title>Formularios en HTML</title>
+<!-- define el título oficial de una página web-->
+
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<!--cierre del encabezado-->
+<body>	
+<!-- etiqueta que define el cuerpo del documento-->
+
+<h1>Formularios</h1> <!--Encabezado principal-->
+<p>Un formulario permite al visitante cargar datos y que sean enviados al servidor.</p>
+<p>El HTML no tiene la responsabilidad de registrar los datos en el servidor,
+esta actividad se delega a traves de un lenguaje que se ejecute en el servidor (PHP,
+ASP, ASP.NET, Node, etc.)
+</p><!--párrafo de texto-->
+<h2>Formularios con seleccion</h2><!--Subtitulo o titulo con menos importancia-->
+<form action="" method="post">
+<!--crear un contenedor de formulario en HTML que envía los datos ingresados por el usuario-->
+
+Ingresa tu nombre:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<input type="text" name="nombre"><!--Campo de texto que define el nombre de la variable-->
+<br><!--Salto de linea-->
+Selecciona tu pais:<!--Texto indicador o etiqueta visual para guiar al usuario-->
+<select name="pais"><!--crea el inicio de un menú desplegable-->
+<option value="1">Argentina</option><!--crea una de las alternativas seleccionables ("Argentina") dentro de tu menú desplegable.-->
+<option value="2">España</option><!--crea una de las alternativas seleccionables ("España") dentro de tu menú desplegable.-->
+<option value="3">Mexico</option><!--crea una de las alternativas seleccionables ("Mexico") dentro de tu menú desplegable.-->
+<option value="4">Guatemala</option><!--crea una de las alternativas seleccionables ("Guatemala") dentro de tu menú desplegable.-->
+<option value="5">Honduras</option><!--crea una de las alternativas seleccionables ("Honduras") dentro de tu menú desplegable.-->
+<option value="6">El Salvador</option><!--crea una de las alternativas seleccionables ("El Salvador") dentro de tu menú desplegable.-->
+<option value="7">Venezuela</option><!--crea una de las alternativas seleccionables ("Venezuela") dentro de tu menú desplegable.-->
+<option value="8">Colombia</option><!--crea una de las alternativas seleccionables ("Colombia") dentro de tu menú desplegable.-->
+</select><!--cierra el contenedor del menú desplegable-->
+<br><!--Salto de linea-->
+<input type="submit" value="enviar"><!-- Crea un botón de envío con el texto "enviar" que procesa el formulario e incluye una etiqueta de comentario vacía al final-->
+<input type="reset" value="borrar"><!-- crea un botón que limpia instantáneamente todos los campos del formulario -->
+</form><!--cierra el contenedor del formulario-->
+</body><!--Cierre del cuerpo-->
+</html><!--marcador de cierre que indica el final de un documento HTML.-->
